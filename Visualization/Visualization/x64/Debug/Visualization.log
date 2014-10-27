@@ -1,0 +1,21 @@
+﻿Build started 9/18/2014 2:57:34 PM.
+     1>Project "C:\Users\legolaptop\Documents\Visual Studio 2013\Projects\Kinect Projects\Visualization\Visualization\Visualization.vcxproj" on node 2 (Build target(s)).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(935,5): warning MSB8027: Two or more files with the name of moc_visualization.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are GeneratedFiles\Debug\moc_visualization.cpp, GeneratedFiles\Release\moc_visualization.cpp.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I.\GeneratedFiles /I. /IC:\Qt\Qt5.3.0\5.3\msvc2013_64\include /I.\GeneratedFiles\Debug /IC:\Qt\Qt5.3.0\5.3\msvc2013_64\include\QtCore /IC:\Qt\Qt5.3.0\5.3\msvc2013_64\include\QtGui /IC:\Qt\Qt5.3.0\5.3\msvc2013_64\include\QtWidgets /I"C:\Program Files\Microsoft SDKs\Kinect\v1.8\\inc" /I"C:\Program Files\Microsoft SDKs\Kinect\Developer Toolkit v1.8.0\\inc" /Zi /nologo /W1 /WX- /Od /D UNICODE /D WIN32 /D WIN64 /D QT_DLL /D QT_CORE_LIB /D QT_GUI_LIB /D QT_WIDGETS_LIB /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TP /errorReport:prompt visualization.cpp
+         visualization.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\legolaptop\Documents\Visual Studio 2013\Projects\Kinect Projects\Visualization\x64\Debug\\Visualization.exe" /NOLOGO /LIBPATH:C:\Qt\Qt5.3.0\5.3\msvc2013_64\lib /LIBPATH:"C:\Program Files\Microsoft SDKs\Kinect\v1.8\\lib\amd64" /LIBPATH:"C:\Program Files\Microsoft SDKs\Kinect\Developer Toolkit v1.8.0\\Lib\amd64" Kinect10.lib KinectInteraction180_64.lib qtmaind.lib Qt5Cored.lib Qt5Guid.lib Qt5Widgetsd.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\legolaptop\Documents\Visual Studio 2013\Projects\Kinect Projects\Visualization\x64\Debug\Visualization.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\legolaptop\Documents\Visual Studio 2013\Projects\Kinect Projects\Visualization\x64\Debug\Visualization.lib" /MACHINE:X64 x64\Debug\Coordinate.obj
+         x64\Debug\moc_visualization.obj
+         x64\Debug\qrc_visualization.obj
+         x64\Debug\KinectInterface.obj
+         x64\Debug\main.obj
+         x64\Debug\MyInteractionClient.obj
+         x64\Debug\TrackedUser.obj
+         x64\Debug\visualization.obj
+         Visualization.vcxproj -> C:\Users\legolaptop\Documents\Visual Studio 2013\Projects\Kinect Projects\Visualization\x64\Debug\Visualization.exe
+     1>Done Building Project "C:\Users\legolaptop\Documents\Visual Studio 2013\Projects\Kinect Projects\Visualization\Visualization\Visualization.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.58
