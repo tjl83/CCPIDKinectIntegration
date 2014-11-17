@@ -10,7 +10,7 @@ public:
 	KinectModule(KinectInterface *k);
 	~KinectModule();
 
-	void aquireData();
+	void acquireData();
 private:
 	KinectInterface *kinect;
 	TrackedUser trackedUser;

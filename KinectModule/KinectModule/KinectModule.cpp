@@ -6,7 +6,7 @@ KinectModule::KinectModule(KinectInterface *k)
 	kinect = k;
 	int foo = kinect->init();
 	if (FAILED(foo)){
-
+		//Not sure if should throw an error here (i.e error handling required)
 	}
 }
 
@@ -15,7 +15,14 @@ KinectModule::~KinectModule()
 {
 }
 
-void KinectModule::aquireData()
+/**
+ * This function begins the loop of acquiring data. It checks if there are
+ * any more frames to process and gets the first user that the sensor sees
+ * and tracks it. If that user moves away then the next available user will
+ * be tracked. Once each frame is processed a function will be signaled to
+ * process the user data that will be passed through.
+ */
+void KinectModule::acquireData()
 {
 	while (kinect->hasNextFrame())
 	{
@@ -37,6 +44,6 @@ void KinectModule::aquireData()
 			trackedUser = TrackedUser(kinect->getUsers().front());
 		}
 
-		//Slot
+		//Here is where the interaction function will be signalled and the user data will be pass through
 	}
 }
