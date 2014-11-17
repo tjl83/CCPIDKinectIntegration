@@ -38,6 +38,8 @@ using namespace std;
 
 KinectInterface::KinectInterface(){}
 
+
+
 /*
 	This processes the depth stream and passes the information into the InteractionStream
 */
