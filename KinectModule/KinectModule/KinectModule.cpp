@@ -1,3 +1,5 @@
+
+
 #include "KinectModule.h"
 
 
@@ -44,6 +46,10 @@ void KinectModule::acquireData()
 			trackedUser = TrackedUser(kinect->getUsers().front());
 		}
 
-		//Here is where the interaction function will be signalled and the user data will be pass through
+		/* Here is where the interaction function will be signaled and the user data will be pass through
+		 * Meaning the signal here will take object "trackedUser" as a parameter.
+		 * The signaled function (i.e the slot) will take the object "trackedUser" and 
+		 */
+
 	}
 }
